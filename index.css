@@ -1,0 +1,45 @@
+:root {
+    --orange: rgb(236, 98, 35);
+    --white: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: var(--white)
+}
+
+.navegador ul {
+    display: flex;
+    background: var(--orange);
+    list-style-type: none;
+    text-align: center;
+}
+
+.navegador li {
+    width: 100%;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+ .navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: white;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+footer {
+    
+    color: var(--white);
+    text-align: center;
+    background: black;
+}
